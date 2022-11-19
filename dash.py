@@ -33,24 +33,6 @@ patient_data_1 = pd.read_csv('5glhn8oo_clean_data.csv')
 st.code(code,language= 'python')
 st.caption('Above is Code that displays the raw dataset')
 
-
-#sudo apt-get update && sudo apt-get upgrade -->to update and upgrade terminal at the same time
-#sudo apt install python3-pip
-#pip3 install streamlit 
-#pip3 install pipenv or Sudo -H pip install -U pipenv 
-#pipenv shell
-#pip install streamlit
-
-#sudo apt-get update
-#sudo apt install python3-pip
-#pip3 install pandas 
-#sudo -h pip install -u pipenv 
-#pip3 install streamlit 
-
-
-#sudo apt install python3-venv
-
-
 ############################################
 #On Azure --> My Mac Terminal 
 #sudo apt-get update
