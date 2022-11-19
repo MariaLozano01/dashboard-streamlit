@@ -27,13 +27,8 @@ st.subheader('Types of Activity for Patient 2')
 activity = patient_data_2[['heavy_activity','mild_activity','moderate_activity']].value_counts()
 st.line_chart(activity)
 
-code = '''@st.cache
-def load_data(nrows):
-    data = pd.read_csv(DATA_URL, nrows=nrows)
-    lowercase = lambda x: str(x).lower()
-    data.rename(lowercase, axis='columns', inplace=True)
-    data[DATE_COLUMN] = pd.to_datetime(data[DATE_COLUMN])
-    return data
+code = '''
+patient_data_1 = pd.read_csv('5glhn8oo_clean_data.csv')
 '''
 st.code(code,language= 'python')
 st.caption('Above is Code that displays the raw dataset')
@@ -70,3 +65,4 @@ st.caption('Above is Code that displays the raw dataset')
 #ls into repo 
 #streamlit run dash.py
 #copy external URL to see data visuals 
+ 
