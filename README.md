@@ -14,6 +14,7 @@ Pip3 install pandas
 Pip3 install jinja2
 Pip3 install jinja2 --upgrade 
 ls into repo
-streamlit run dash.py '''
+streamlit run dash.py 
+'''
 
 
