@@ -1,8 +1,8 @@
 # dashboard-streamlit
 
-##Create a VM on Azure 
+## Create a VM on Azure 
 
-##When in Mac terminal, insert commands:
+## When in Mac terminal, insert commands:
 
 ssh nameofuser@120.098322 (API address) + insert password 
 Sudo apt-get update
