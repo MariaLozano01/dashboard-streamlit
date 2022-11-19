@@ -20,11 +20,11 @@ if st.checkbox('Show Raw Data 2'):
 
 
 st.subheader('Satisfaction Patient 1')
-satis = patient_data_1['Satisfaction'].value_counts()
+satis = patient_data_1['satisfaction'].value_counts()
 st.bar_chart(satis)
 
 st.subheader('Types of Activity for Patient 2')
-activity = patient_data_2[['heavy_activity','mild_activity','moderate_activity']].value_counts()
+activity = np.histogram(patient_data_2[['heavy_activity','mild_activity','moderate_activity']].value_counts())
 st.line_chart(activity)
 
 code = '''
@@ -66,3 +66,5 @@ st.caption('Above is Code that displays the raw dataset')
 #streamlit run dash.py
 #copy external URL to see data visuals 
  
+
+#python3 -m pip install --upgrade pip ---> upgrade pip 
