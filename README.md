@@ -6,7 +6,7 @@
 
 ssh nameofuser@120.098322 (API address) + insert password 
 
-''' 
+```
 Sudo apt-get update
 Sudo apt install python3-pip
 Pip3 install streamlit
@@ -16,6 +16,6 @@ Pip3 install jinja2
 Pip3 install jinja2 --upgrade 
 ls into repo
 streamlit run dash.py 
-'''
+```
 
 
