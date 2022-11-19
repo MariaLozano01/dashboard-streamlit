@@ -4,7 +4,8 @@
 
 ## When in Mac terminal, insert commands:
 
-ssh nameofuser@120.098322 (API address) + insert password 
+# ssh nameofuser@120.098322 (API address) + insert password 
+
 Sudo apt-get update
 Sudo apt install python3-pip
 Pip3 install streamlit
