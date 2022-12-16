@@ -34,6 +34,7 @@ st.code(code,language= 'python')
 st.caption('Above is Code that displays the raw dataset')
 
 ############################################
+
 #On Azure --> My Mac Terminal 
 #sudo apt-get update
 #sudo apt install python3-pip
@@ -48,5 +49,4 @@ st.caption('Above is Code that displays the raw dataset')
 #streamlit run dash.py
 #copy external URL to see data visuals 
  
-
 #python3 -m pip install --upgrade pip ---> upgrade pip 
